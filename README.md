@@ -1,2 +1,2 @@
 # page-replacement
-[hw1.pdf](https://github.com/jimmy8823/page-replacement/files/9739939/hw1.pdf)
+![image](https://user-images.githubusercontent.com/56255361/194720562-1827e655-d3c1-4b99-8289-e6b1e753b07b.png)
