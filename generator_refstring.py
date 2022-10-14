@@ -38,11 +38,11 @@ def generator_refstring_self():
         return;
     f = open("test/self_create.txt", "a");
     while(m_ref>0):
-        continue_ref_length = randint(1,10);# to reduce random time
+        ref_in_a_row_len = randint(1,10);
         ref_s = randint(1,600);
-        for i in range(0,continue_ref_length+1):
+        for i in range(0,ref_in_a_row_len+1):
             dirty_bit = randint(0,1);
             ref_bit = randint(0,1);
             f.write(str((ref_s+i)%600) + " " + str(dirty_bit) + str(ref_bit) +  "\n");
-        m_ref-=continue_ref_length;
+        m_ref-=ref_in_a_row_len;
     f.close();
